@@ -1,0 +1,15 @@
+[package]
+name = "bluepill"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+cortex-m             = "0.6"
+cortex-m-rt          = {version = "0.6", features = ["device"]}
+cortex-m-semihosting = "0.3.5"
+embedded-hal         = "0.2"
+panic-halt           = "0.2.0"
+stm32-usbd           = "0.6"
+stm32f1xx-hal        = {version = "0.7", features =[ "rt", "stm32f103", "stm32-usbd" ]}
+usb-device           = "0.2"
+usbd-serial          = "0.1"

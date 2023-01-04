@@ -1,0 +1,19 @@
+[workspace]
+members = [
+	"bluepill",
+	"projects/lego-can",
+]
+
+[profile.dev]
+opt-level = 3
+debug = true
+lto = true
+codegen-units = 1
+incremental = false
+
+[profile.release]
+opt-level = 3
+debug = true
+lto = true
+codegen-units = 1
+incremental = false

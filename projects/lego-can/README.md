@@ -23,7 +23,7 @@ The board contains:
 - Four status LEDs: one for each detected motor, and one for the USB/CAN status.
 - Power connector: `9V-12V`.
 
-![Lego-can](https://user-images.githubusercontent.com/46680867/210427604-71efc870-1325-4b1c-9374-c73158fb3cda.png)
+![Lego-can](https://user-images.githubusercontent.com/46680867/210623396-f0d733bd-051d-478f-9b75-4caff7ba5fc6.png)
 
 ## Interface
 
